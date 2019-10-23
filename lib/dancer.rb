@@ -2,7 +2,7 @@ require_relative './class_methods_module.rb'
 require_relative './dance_module.rb'
 require_relative './fancy_dance.rb'
 
-class Dancer
+class Dancer 
   include Dance 
   attr_accessor :name 
   
@@ -11,6 +11,6 @@ class Dancer
   end
 end
 
-class Dancer
-  extend MetaDancing 
+class Dancer 
+  extend Metadancing 
 end
